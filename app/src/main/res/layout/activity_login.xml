@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context="com.danyalvarez.primicia.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/login_message"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_big" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/marqueeTextView"
+        android:text="Esto es un texto largo que puede ser usado para mostar un amarkeee y eso no se como se escribe pero es totalmente valido"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/primary_dark"
+        android:focusable="false"
+        android:gravity="center_vertical|center_horizontal"
+
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/twitterLoginButton"
+            style="@style/TwitterButton"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

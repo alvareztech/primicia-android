@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Primicia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_celebrity">Celebrity</string>
+
+    <!-- Sections -->
+    <string name="journalists">Periodistas</string>
+    <string name="politicians">Políticos</string>
+    <string name="communication">Medios de comunicación</string>
+    <string name="government">Gobierno</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_twitter">INGRESA CON <b>TWITTER</b></string>
+    <string name="login_message">Novedades contadas de primera mano</string>
+    <string name="unknown_error">Ocurrió un error desconocido</string>
+
+    <string name="no_network">No hay conexión a Internet</string>
+    <string name="no_network_detail">Comprueba tu conexión y vuelve a intentarlo.</string>
+    <string name="go_config">Ir a configuraciones de la red</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sports">Deportes</string>
+    <string name="services">Servicios</string>
+
+</resources>
