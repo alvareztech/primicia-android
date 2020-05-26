@@ -3,9 +3,9 @@ package com.danyalvarez.primicia.fragments;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,18 +23,13 @@ import com.danyalvarez.primicia.util.Keys;
 
 import java.util.List;
 
-import twitter4j.HashtagEntity;
-import twitter4j.MediaEntity;
 import twitter4j.Paging;
 import twitter4j.Query;
 import twitter4j.QueryResult;
-import twitter4j.ResponseList;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
-import twitter4j.URLEntity;
-import twitter4j.UserList;
 import twitter4j.conf.ConfigurationBuilder;
 
 /**

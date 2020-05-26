@@ -1,8 +1,5 @@
 package com.danyalvarez.primicia;
 
-import android.graphics.drawable.Drawable;
-import android.media.Image;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -12,22 +9,18 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.danyalvarez.primicia.util.Constants;
 import com.manuelpeinado.fadingactionbar.extras.actionbarcompat.FadingActionBarHelper;
 import com.squareup.picasso.Picasso;
 
-import org.w3c.dom.Text;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import twitter4j.User;
 
 
-public class CelebrityActivity extends ActionBarActivity {
+public class CelebrityActivity extends AppCompatActivity {
 
     private User user;
 
@@ -101,8 +94,6 @@ public class CelebrityActivity extends ActionBarActivity {
             Log.i(Constants.TAG_DEBUG, urlPhoto);
 
             mNameTextView.setText(user.getName());
-
-
 
 
         }
